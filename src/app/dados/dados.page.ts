@@ -10,11 +10,15 @@ export class DadosPage implements OnInit {
   private idade : string;
   private email : string;
   private telefone : string;
-  //private copyright : string;
 
   private pessoa : object;
 
+  private caminho : string;
+
   constructor() {
+
+    this.caminho = "/assets/icon/favicon.png"
+
     this.nome = "Yoshi";
     this.idade = "28";
     this.email = "joao@supermario.com";
